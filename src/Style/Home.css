@@ -1,0 +1,109 @@
+
+/* DashBord */
+.DashHome {
+  height: 30px;
+  min-width: 720px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #f6cc4ecd;
+  box-shadow: 10px 10px 10px gray inset;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.UL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.Logout {
+  display: flex;
+  gap: 200px;
+}
+.DashHome ul {
+  list-style: none;
+}
+.DashHome a {
+  text-decoration: none;
+}
+/*SearchHome*/
+.SearchHome{
+
+    border-radius: 4px;
+    border: 1px solid gray;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(215, 214, 214);
+    padding: 5px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    color: 		rgb(	184,134,11);
+    padding: 15px;
+    transform: translate(100%, 0px);
+
+}
+ 
+ .SearchHome:invalid{
+    border: 1px solid rgb(255, 0, 0);
+ }
+ .SearchHome:valid{
+    border: 1px solid green;
+ }
+/* FlipImg */
+.flip img{
+   
+    background-color: rgb(255, 255, 255);
+}
+.flip:hover img{
+    opacity: 0.8;
+
+
+}
+/* CenterHome */
+.TextHome{
+
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    color: 		rgb(	184,134,11);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.CenterHome{
+    flex-wrap: wrap;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+/* ProductHome*/
+.ProductHome{
+   
+    
+    flex-wrap: wrap;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+/*cart-count*/
+.cart-count{
+    border-radius: 70%;
+    background-color: rgb(157, 152, 152);
+    color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50px;
+    margin-top: -50px;
+    position: relative;
+}

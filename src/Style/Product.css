@@ -1,0 +1,44 @@
+.ProductShow{
+    display: flex;
+    flex-direction:column ;
+    width: 350px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+}
+.ProductShow img{
+    width: 350px;
+    height: 250px;
+}
+.ProductShow button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.ProductShow button:hover{
+    opacity: 0.8;
+}
+.Product{     
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 50px;      
+}
+ 
+/*Box AddProduct*/
+ 
+    

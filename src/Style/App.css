@@ -1,0 +1,109 @@
+*{
+    
+     
+
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+   
+      
+}
+/* Sign Up */
+.SignUP{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+.form-sign{
+    margin-top:50px ;
+    border: 1px solid black;
+    background-image: linear-gradient(110deg,white 0%,white 50%,transparent 50%),
+    url('../Components//IMG/pngtree-digital-retailing-illustration-laptop-keyboard-with-shopping-basket-and-e-commerce-image_3903657.jpg');
+   background-size: cover;
+   background-position: center; 
+   display: flex;
+   flex-direction: column;
+   width: 60vw;
+   padding: 80px;
+   gap: 5px;
+
+}
+.form-sign:valid{
+    border: 2px solid green;
+}
+.form-sign:invalid{
+    border: 2px solid red;
+}
+.form-sign p{
+    font-size: 20px;
+}
+.form-sign input{
+    
+    box-shadow: 0 0 10px gray inset;
+    max-width: 50%;
+    height: 55px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-sign input{
+    border: none;
+}
+.form-sign input:valid{
+    border-bottom: 1px solid green;
+}
+.form-sign input:invalid{
+    border-bottom: 1px solid red;
+}
+.form-sign button{
+    width: 30%;
+    height: 55px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    margin-left: 40px;
+  
+}
+ 
+.form-sign button:hover{
+    opacity: 0.8;
+}
+ .showpass{
+ 
+    position: relative;
+    top: -40px;
+    left: 430px;
+    cursor: pointer;
+
+ }
+ /* DashBord */
+ .DashBord{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:  0 0 10px gray inset ;    
+    padding: 20px;
+ }
+ .DashBord ul{
+    display: flex;
+    gap: 20px;
+     
+ }
+ .active1{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ 
