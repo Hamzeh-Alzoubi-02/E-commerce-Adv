@@ -6,55 +6,6 @@
       "password": "admin",
       "confirmPassword": "admin",
       "email": "admin@example.com"
-    },
-    {
-      "name": "HAMZEH MAHMOUD ISSA ALZU'BI",
-      "email": "hmz@gmail.com",
-      "password": "12345",
-      "confirmPassword": "12345",
-      "id": 2
-    },
-    {
-      "name": "HAMZEH MAHMOUD ISSA ALZU'BI",
-      "email": "hmz12@gmail.com",
-      "password": "12345",
-      "confirmPassword": "12345",
-      "id": 3
-    },
-    {
-      "name": "asd",
-      "email": "a@as",
-      "password": "asdfg",
-      "confirmPassword": "asdfg",
-      "id": 4
-    },
-    {
-      "name": "HAMZEH MAHMOUD ISSA ALZU'BI",
-      "email": "a@12",
-      "password": "12345",
-      "confirmPassword": "12345",
-      "id": 5
-    },
-    {
-      "name": "admin",
-      "email": "admin@gmail.com",
-      "password": "963963",
-      "confirmPassword": "963963",
-      "id": 6
-    },
-    {
-      "name": "HAMZEH MAHMOUD ISSA ALZU'BI",
-      "email": "hmz1@gmail.com",
-      "password": "12345",
-      "confirmPassword": "12345",
-      "id": 7
-    },
-    {
-      "name": "Hamzeh Alzoubi",
-      "email": "hmz78@gmail.com",
-      "password": "12345",
-      "confirmPassword": "12345",
-      "id": 8
-    }
+    } 
   ]
 }
